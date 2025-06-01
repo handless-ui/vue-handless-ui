@@ -53,6 +53,8 @@ import UiRadio from "vue-handless-ui/src/Radio";
 - [单选 RadioGroup、Radio](./docs/Radio.md)
 - [多选 CheckGroup、Check](./docs/Check.md)
 - [开关 Switch](./docs/Switch.md)
+- [弹出层 Popup](./docs/Popup.md)
+- [输入框 Input](./docs/Input.md)
 
 ## 版权
 

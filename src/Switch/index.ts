@@ -1,5 +1,5 @@
 import { defineComponent, h, renderSlot, ref, watch } from 'vue';
-import { throttle } from "oipage/corejs/throttle/index";
+import { throttle } from "oipage/web/throttle/index";
 
 export default defineComponent({
     name: 'UiSwitch',

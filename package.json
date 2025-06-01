@@ -1,10 +1,10 @@
 {
   "name": "vue-handless-ui",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "一个基于 Vue 3，面向开发者开发的无头组件库",
   "typings": "./types/index.d.ts",
-  "main": "dist/vue-handless-ui.umd.cjs",
-  "module": "dist/vue-handless-ui.js",
+  "main": "./dist/vue-handless-ui.umd.cjs",
+  "module": "./dist/vue-handless-ui.js",
   "unpkg": "./dist/vue-handless-ui.iife.js",
   "jsdelivr": "./dist/vue-handless-ui.iife.js",
   "sideEffects": false,
@@ -34,11 +34,10 @@
   "homepage": "https://github.com/handless-ui/vue-handless-ui#readme",
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.0",
-    "@vitejs/plugin-vue-jsx": "^4.0.0",
     "vite": "^5.3.4",
     "vue": "^3.4.34"
   },
   "dependencies": {
-    "oipage": "^0.1.0"
+    "oipage": "^1.0.0"
   }
 }

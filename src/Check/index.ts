@@ -1,5 +1,5 @@
 import { defineComponent, h, renderSlot, ref, inject, onUnmounted } from 'vue';
-import { throttle } from "oipage/corejs/throttle/index";
+import { throttle } from "oipage/web/throttle/index";
 
 export default defineComponent({
     name: 'UiCheck',
@@ -35,7 +35,7 @@ export default defineComponent({
                     keep: true,
                     opportunity: "begin"
                 })
-            }, renderSlot(slots, "default", {}));
+            }, [renderSlot(slots, "default", {})]);
         };
     }
 });

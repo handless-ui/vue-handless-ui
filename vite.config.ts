@@ -1,11 +1,13 @@
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
-import vueJsx from '@vitejs/plugin-vue-jsx';
 
 export default defineConfig({
+    server: {
+        port: 20000,
+        host: "0.0.0.0"
+    },
     plugins: [
         vue(), // VUE插件
-        vueJsx() // JSX 插件
     ],
     build: {
         rollupOptions: {

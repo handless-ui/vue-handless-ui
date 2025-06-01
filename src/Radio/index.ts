@@ -31,7 +31,7 @@ export default defineComponent({
                 onClick() {
                     if (!isChecked.value) updateModel(props.value);
                 }
-            }, renderSlot(slots, "default", {}));
+            }, [renderSlot(slots, "default", {})]);
         };
     }
 });
